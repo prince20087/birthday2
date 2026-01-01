@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Special Birthday Surprise 🎉</title>
+</head>
+
+<body style="text-align:center; font-family:Arial; background:#fef6ff;">
+
+<h1>⚠️ WARNING ⚠️</h1>
+<p>This page contains <b>dangerous level birthday vibes</b> 😎🎂</p>
+
+<hr>
+
+<h2>👀 First of all, look at this legend</h2>
+
+<img src="vishal.png" width="250" style="border-radius:15px;">
+
+<p>Yes yes… this is <b>YOU</b> 😏</p>
+
+<hr>
+
+<h2>⏳ Loading Birthday Wishes…</h2>
+
+<p id="loading">Please wait... 0%</p>
+
+<button onclick="loadWish()">Start Birthday Magic 🎉</button>
+
+<script>
+let percent = 0;
+function loadWish(){
+let interval = setInterval(function(){
+percent += 10;
+document.getElementById("loading").innerHTML =
+"Please wait... " + percent + "%";
+if(percent >= 100){
+clearInterval(interval);
+document.getElementById("loading").innerHTML =
+"✅ Loaded Successfully!";
+document.getElementById("wish").style.display = "block";
+}
+}, 300);
+}
+</script>
+
+<hr>
+
+<div id="wish" style="display:none;">
+
+<h1>🎂 HAPPY BIRTHDAY BRO 🎂</h1>
+
+<p>Congratulations 🎉  
+You have officially become:</p>
+
+<ul style="list-style:none;">
+<li>✔️ One year older</li>
+<li>✔️ One year smarter (maybe 😜)</li>
+<li>✔️ Still same handsome legend 😎</li>
+</ul>
+
+<img src="vishal.png" width="200" style="border-radius:50%;">
+
+<p>
+Today is not a normal day ❌  
+Today is the day when the world got <b>YOU</b> 🌍🔥
+</p>
+
+<hr>
+
+<h2>😈 Friendly Troll Section</h2>
+
+<p>
+Age is just a number…  
+In your case, a <b>BIG number</b> 😂
+</p>
+
+<p>
+Cake calories don’t count today 🍰  
+But tomorrow… gym compulsory 💪😆
+</p>
+
+<p>
+Don’t worry bro,  
+you’re not getting old…  
+you’re just becoming a <b>limited edition</b> 😎✨
+</p>
+
+<hr>
+
+<h2>💙 From Your Friend</h2>
+
+<p>
+May your life be full of:
+</p>
+
+<p>
+🎉 Happiness  
+😄 Laughter  
+💸 Money  
+🍕 Food  
+🚀 Success  
+</p>
+
+<p>
+Stay the same crazy, funny, real friend forever 🤝  
+Enjoy your day to the fullest!
+</p>
+
+<h1>🥳🎂 HAPPY BIRTHDAY ONCE AGAIN 🎂🥳</h1>
+
+</div>
+
+<hr>
+
+<p style="font-size:12px;">
+Made with ❤️ by your friend
+</p>
+
+</body>
+</html>
